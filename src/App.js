@@ -16,13 +16,13 @@ const [state, setState] = useState(0)
     }
   }
   const Retry = () => {
-    setState(state - state)
+    setState(0)
   }
   return (
     <div className="App">
       <div className='background'>
       <header className="App-header">
-      <h1>Counter</h1>
+      <h1>Counter 1</h1>
       <span>{state}</span>
         <div className ='button'>
         <button onClick={handleAdd}>Add</button>
