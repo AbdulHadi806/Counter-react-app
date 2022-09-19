@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  color: #fff;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #13162b;
+}
+.App span {
+  color: #fff;
+  font-size: 46px;
+}
+button {
+  width: 116px;
+    height: 40px;
+    font-size: 17px;
+  color: #fff;
+  border: 1px solid #000;
+  background: #0087ff;
+  transition: .2s all ease-in;
+  border-radius: 5px;
+}
+
+.App-header {
+  padding-top: 30px;
+  display: flex;
+  gap: 20px;
+  background-color: #191c37;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0;
+  width: 580px;
+  border-radius: 17px;
+  position: absolute;
+  top: 53px;
+  left: -51px;
+}
+.button {
+  display: flex;
+  gap: 20px;
+  padding-top: 35px;
+}
+.background {
+  background-color: #0084fa;
+  width: 480px;
+  height: 471px;
+  border-radius: 17px;
+  position: relative;
+}
